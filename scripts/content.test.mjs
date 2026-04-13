@@ -16,6 +16,11 @@ test('portfolio site uses extracted profile facts and no template filler', async
   const combined = `${profile}\n${page}`;
 
   assert.match(combined, /Hang \(Eric\) Zheng/);
+  assert.match(combined, /10 years of professional experience/);
+  assert.match(combined, /React and Next\.js projects/);
+  assert.match(combined, /AI-agent architecture/);
+  assert.doesNotMatch(combined, /born in 1998 with a Bachelor/);
+  assert.doesNotMatch(combined, /With 9 years of professional experience/);
   assert.match(combined, /Morfeus Technologies Inc\./);
   assert.match(combined, /AI & LLM Systems|LLM Orchestration/);
   assert.match(combined, /ericresume\.online/);

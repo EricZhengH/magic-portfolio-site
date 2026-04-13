@@ -157,10 +157,10 @@ export const profile: Profile = {
     phone: '+61 402837608',
     website: 'http://ericresume.online/',
     birthYear: '1998',
-    yearsOfExperience: '9 years',
+    yearsOfExperience: '10 years',
     github: 'https://github.com/EricZhengH',
     summary:
-      "I am Hang (Eric) Zheng, a seasoned software engineer born in 1998 with a Bachelor's degree in Computer Science and Technology from Beijing Jiaotong University. With 9 years of professional experience, I specialize in AI/LLM-powered products, multi-agent systems, Java and Go development, high-concurrency distributed systems, and performance optimization. I have recently focused on building AI market intelligence and automation platforms with agent orchestration, RAG, tool calling, and production-grade data and application infrastructure. My English proficiency is IELTS 6.5, and my GitHub profile is available at https://github.com/EricZhengH.",
+      'With 10 years of professional experience, I am a full-stack developer focused on Java and Go development, high-performance distributed systems, microservices, data platforms, and performance optimization. I also build modern React and Next.js projects with TypeScript, production UI workflows, and end-to-end product delivery. Over the past two years, I have focused on AI-powered projects, including AI-agent architecture, LLM orchestration, RAG, tool calling, deployment, monitoring, and production-grade data and application infrastructure.',
     sourceNotes: [
       'Current location is taken from edit-me/content/personal.md and ProfileREADME.md.',
       'docs/ZHGOEN.MD also lists preferred location as Beijing and expected salary as CNY 40,000-45,000 per month pre-tax; those legacy job-search preferences are not used as public portfolio copy.',
