@@ -160,7 +160,7 @@ export const profile: Profile = {
     yearsOfExperience: '10 years',
     github: 'https://github.com/EricZhengH',
     summary:
-      'With 10 years of professional experience, I am a full-stack developer focused on Java and Go development, high-performance distributed systems, microservices, data platforms, and performance optimization. I also build modern React and Next.js projects with TypeScript, production UI workflows, and end-to-end product delivery. Over the past two years, I have focused on AI-powered projects, including AI-agent architecture, LLM orchestration, RAG, tool calling, deployment, monitoring, and production-grade data and application infrastructure.',
+      'Results-driven Full-Stack Software Engineer with 10 years of experience architecting high-performance distributed systems, Java and Golang backend services, microservices, data platforms, and performance-critical product infrastructure. Over the past two years, I have focused on production-grade AI applications, successfully designing and deploying AI-powered products leveraging AI-agent architecture, LLM orchestration, RAG, tool calling, monitoring, and scalable deployment workflows. I bring a proven track record of end-to-end product delivery, combining robust backend engineering with modern frontend architectures using React, Next.js, and TypeScript.',
     sourceNotes: [
       'Current location is taken from edit-me/content/personal.md and ProfileREADME.md.',
       'docs/ZHGOEN.MD also lists preferred location as Beijing and expected salary as CNY 40,000-45,000 per month pre-tax; those legacy job-search preferences are not used as public portfolio copy.',
