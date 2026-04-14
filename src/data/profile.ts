@@ -264,13 +264,13 @@ export const profile: Profile = {
       source: 'edit-me/content/professional-experiences/00-morfeus-technologies.md',
       bullets: [
         'Designed and developed Morfeus, an AI/LLM-powered market intelligence platform for FX and macro trading, spanning conversational research, War Room risk monitoring, data feeds, session recaps, and Trade Lab workflows.',
-        'Architected a neural orchestrator that aggregated and validated outputs from 33 AI agents to produce consensus-backed views on currency pairs, macro events, and trade ideas.',
+        'Architected a multi-agent orchestrator that aggregated and validated outputs from 33 agents, producing consensus-backed views on currency pairs, macro events, and trade ideas.',
         'Integrated Polygon, Event Registry, Myfxbook, COT, and structured internal research datasets to power agent reasoning, market regime classification, news sentiment analysis, and research workflows.',
-        'Delivered production-grade product infrastructure across Next.js, React, TypeScript, FastAPI, Python, Redis, Supabase/Postgres, OpenAI, Stripe, background workers, PDF reporting, testing, and CI/CD.',
+        'Shipped production infrastructure for authentication, subscriptions, background jobs, PDF reporting, automated tests, and CI/CD across a Next.js/FastAPI/Postgres/Redis stack.',
       ],
       projects: [
         {
-          name: 'Neural Orchestrator Research System',
+          name: 'Multi-Agent Research Orchestrator',
           technologies: ['Next.js', 'TypeScript', 'FastAPI', 'OpenAI'],
           bullets: [
             'Built a multi-agent orchestration layer that merged outputs from 33 AI agents into consensus-backed research for currency pairs, macro events, and trade ideas.',
@@ -312,7 +312,7 @@ export const profile: Profile = {
       bullets: [
         'Led the design, development, and maintenance of the LiveMe risk control platform using Golang, Kafka, and Elasticsearch.',
         'Refactored core modules from Java to Go, improving task scheduling efficiency and reducing resource consumption.',
-        'Introduced real-time event streaming with Kafka and user profiling in Elasticsearch, achieving second-level risk decision responses and reducing server costs by 30%.',
+        'Introduced Kafka-based real-time event streaming and Elasticsearch user profiling, reducing risk decision latency to seconds and cutting server costs by 30%.',
         'Built and maintained a data warehouse on AWS Redshift, integrating multiple risk sources for unified analytics and reporting.',
         'Developed a streaming data ingestion platform capturing MySQL Binlog to Kafka and persisting data to Amazon S3, Hive, and analytics systems, processing over 10TB daily.',
         'Implemented a high-performance data service platform using Netty and Spring Boot, handling 40 million daily calls with flexible query modes.',
