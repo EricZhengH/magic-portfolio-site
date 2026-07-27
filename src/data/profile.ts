@@ -155,7 +155,7 @@ export const profile: Profile = {
     location: 'Melbourne, Australia',
     email: 'zhenghangtxdyr@gmail.com',
     phone: '+61 402837608',
-    website: 'http://ericresume.online/',
+    website: 'https://ericzhengh.com/',
     birthYear: '1998',
     yearsOfExperience: '10 years',
     github: 'https://github.com/EricZhengH',

@@ -67,7 +67,7 @@ export default function HomePage() {
             <div>
               <dt>Website</dt>
               <dd>
-                {profile.basics.website ? <a href={profile.basics.website}>ericresume.online</a> : 'TODO'}
+                {profile.basics.website ? <a href={profile.basics.website}>ericzhengh.com</a> : 'TODO'}
               </dd>
             </div>
           </dl>

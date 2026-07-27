@@ -39,8 +39,12 @@ jobs:
 
       - name: Build static site
         run: npm run build
-        env:
-          GITHUB_PAGES: 'true'
+
+      # The custom domain serves the site from the root path, so no basePath is
+      # applied. CNAME must ship inside the artifact for GitHub Pages to keep the
+      # custom domain bound to this deployment.
+      - name: Add CNAME to build output
+        run: cp CNAME out/CNAME
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

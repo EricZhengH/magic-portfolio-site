@@ -25,7 +25,7 @@ test('portfolio site uses extracted profile facts and no template filler', async
   assert.doesNotMatch(combined, /With 9 years of professional experience/);
   assert.match(combined, /Morfeus Technologies Inc\./);
   assert.match(combined, /AI & LLM Systems|LLM Orchestration/);
-  assert.match(combined, /ericresume\.online/);
+  assert.match(combined, /ericzhengh\.com/);
   assert.match(combined, /linkedin\.com\/in\/ericzheng6/);
   assert.match(combined, /Cybercloud Company Beijing/);
   assert.match(combined, /Baiye-RPC/);
