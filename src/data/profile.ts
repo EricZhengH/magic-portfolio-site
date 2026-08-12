@@ -187,7 +187,6 @@ export const profile: Profile = {
       username: '18516899886',
       url: '',
       source: 'docs/ZHGOEN.MD',
-      todo: 'TODO: Confirm whether this legacy China contact should be public.',
     },
   ],
   skills: [
@@ -555,7 +554,6 @@ export const profile: Profile = {
       summary: 'Developing a modular LangChain-based framework for enterprise automation.',
       technologies: ['LangChain', 'AI agents'],
       source: 'ProfileREADME.md',
-      todo: 'TODO: Add repository link or remove from public project list if not public.',
     },
     {
       name: 'RAG Pipeline',
@@ -563,7 +561,6 @@ export const profile: Profile = {
       summary: 'Building production-ready RAG systems with hybrid search capabilities.',
       technologies: ['RAG', 'Vector search'],
       source: 'ProfileREADME.md',
-      todo: 'TODO: Add repository link or remove from public project list if not public.',
     },
     {
       name: 'LLM Gateway',
@@ -571,7 +568,6 @@ export const profile: Profile = {
       summary: 'Creating a unified API gateway for multiple LLM providers with intelligent routing.',
       technologies: ['LLM routing'],
       source: 'ProfileREADME.md',
-      todo: 'TODO: Add repository link or remove from public project list if not public.',
     },
     {
       name: 'Trading Agent Orchestrator',
@@ -579,7 +575,6 @@ export const profile: Profile = {
       summary: 'Designing multi-agent systems for automated trading platform operations.',
       technologies: ['Multi-agent systems'],
       source: 'ProfileREADME.md',
-      todo: 'TODO: Add repository link or remove from public project list if not public.',
     },
   ],
   resumeNotes: [

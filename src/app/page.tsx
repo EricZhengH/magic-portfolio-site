@@ -126,7 +126,7 @@ export default function HomePage() {
             <article className="focus-card" key={item.name}>
               <h3>{item.name}</h3>
               <p>{item.summary}</p>
-              <p className="todo">{item.todo}</p>
+              {item.todo ? <p className="todo">{item.todo}</p> : null}
             </article>
           ))}
         </div>
